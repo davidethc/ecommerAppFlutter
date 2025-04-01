@@ -6,7 +6,8 @@ class Shop extends ChangeNotifier {
   final List<Product> _shop = [
     //product 1
     Product(
-      imagePath: '/Users/monky02/Desktop/ecommer/lib/images/nike_air.png',
+      imagePath:
+          '/Users/monky02/Desktop/ecommerAppFlutter/ecommer/lib/images/nike_air.png',
       name: 'Nike Air Max',
       price: '200',
       description: 'Premium running shoes with advanced cushioning technology',
@@ -14,7 +15,7 @@ class Shop extends ChangeNotifier {
     //product 2
     Product(
       imagePath:
-          '/Users/monky02/Desktop/ecommer/lib/images/adidas_sport_tee.png',
+          '/Users/monky02/Desktop/ecommerAppFlutter/ecommer/lib/images/adidas_sport_tee.png',
       name: 'Adidas Sport Tee',
       price: '100',
       description:
@@ -22,14 +23,16 @@ class Shop extends ChangeNotifier {
     ),
     //product 3
     Product(
-      imagePath: '/Users/monky02/Desktop/ecommer/lib/images/clasic.jpg',
+      imagePath:
+          '/Users/monky02/Desktop/ecommerAppFlutter/ecommer/lib/images/clasic.jpg',
       name: 'Classic Denim',
       price: '30',
       description: 'Premium quality men\'s jeans with comfortable fit',
     ),
     //product 4
     Product(
-      imagePath: '/Users/monky02/Desktop/ecommer/lib/images/cozy.png',
+      imagePath:
+          '/Users/monky02/Desktop/ecommerAppFlutter/ecommer/lib/images/cozy.png',
       name: 'Cozy Sweater',
       price: '500',
       description: 'Warm winter sweater made with premium wool blend',

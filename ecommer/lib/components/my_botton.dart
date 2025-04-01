@@ -15,18 +15,15 @@ class MyButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        child: Container(
-          decoration: BoxDecoration(
-            color:
-                Theme.of(
-                  context,
-                ).colorScheme.onError, // Changed from onPrimary to primary
-            borderRadius: BorderRadius.circular(16),
-          ),
-          padding: EdgeInsets.all(20),
-
-          child: child,
+        decoration: BoxDecoration(
+          color:
+              Theme.of(
+                context,
+              ).colorScheme.primary, // Changed to primary for better visibility
+          borderRadius: BorderRadius.circular(16),
         ),
+        padding: EdgeInsets.all(20),
+        child: Center(child: child), // Added Center widget for better alignment
       ),
     );
   }
